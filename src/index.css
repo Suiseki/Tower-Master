@@ -3,3 +3,32 @@
   border:1px solid gray;
   padding: 10px;
 }
+
+.tower {
+	position: relative;
+	display: inline-block;
+	margin: 10px;
+	width: 200px;
+	height: 330px;
+	background-color: gray;
+}
+
+.gate {
+	position: absolute;
+    margin: 0 30%;
+    width: 30px;
+    background: #444;
+    height: 65px;
+    bottom: 0;
+    border-radius: 5% 5% 0 0;
+    border:2px solid #555;
+    padding-top: 10px; 
+}
+
+.gray {
+	background: gray;
+}
+
+.gold {
+	background: #ffd700;
+}
